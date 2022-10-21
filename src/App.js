@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Counter1 from './Components/Counter1'
+import Counter2 from './Components/Counter2';
+import Counter3 from './Components/Counter3';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Counter One</h1>
+      <Counter1 />
+      <hr />
+      <h1>Counter Two</h1>
+      <Counter2 />
+      <hr />
+      <h1>Counter Three</h1>
+      <Counter3 />
     </div>
   );
 }
